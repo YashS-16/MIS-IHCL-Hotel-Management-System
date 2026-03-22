@@ -78,4 +78,5 @@ A fully functional **Hotel Management System** built using ReactJS that simulate
 ---
 ## Project - Taj Hotels Demo
 
-``` [Watch Demo](https://youtu.be/W8EE7Cg5tWM?si=V9iCd1gX5VDCq3I6)
+## 🎥 Project Demo – TAJ Hotels
+[![Watch Demo](https://img.youtube.com/vi/W8EE7Cg5tWM/0.jpg)](https://youtu.be/W8EE7Cg5tWM)
