@@ -1,0 +1,101 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f6f8;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Card */
+.card {
+    background: #fff;
+    padding: 30px;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.header h2 {
+    margin-bottom: 4px;
+}
+
+.header p {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 18px;
+}
+
+.section h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus {
+    border-color: #bbb;
+    background: #fff;
+}
+
+.room-preview {
+    gap: 150px;
+    display: flex;
+    font-size: 13px;
+    color: #555;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.date-row {
+    display: flex;
+    gap: 10px;
+}
+
+.error-text {
+    color: #d9534f;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 11px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.primary-btn:hover {
+    background: #444;
+}
+
+.logout-btn {
+    width: 100%;
+    padding: 10px;
+    background: #eee;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

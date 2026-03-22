@@ -1,0 +1,86 @@
+.home-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.home-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 20px 40px;
+}
+
+.home-hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.home-hero p {
+  color: #777;
+}
+
+.home-grid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.home-card {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid #eee;
+  transition: 0.3s;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.home-card:hover {
+  transform: translateY(-4px);
+}
+
+.home-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.home-card p {
+  color: #666;
+}
+
+.home-info {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.info-grid {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #555;
+}
